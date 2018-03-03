@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="{{selectedItem.flag}}"/>
+    <ion-card-content>
+      <ion-card-title>
+       {{selectedItem.name}}
+        </ion-card-title>
+      <p>
+        Capital: {{selectedItem.capital}}, Region: {{selectedItem.region}}
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
